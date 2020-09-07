@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+header {
+  font-size: 2rem;
+  padding: 10px;
+}
+.esports-info {
+  border: 1px solid black;
+  overflow: scroll;
+  display: inline-block;
+  width: 30%;
+  height: 400px;
+  padding: 5px;
+  margin: 5px;
+  /* justify-content: space-between; */
+  font-size: 1.5rem;
+}
+.esports-info img {
+  width: 100%;
+  height: 300px;
+}
+.esports-info h2 {
+  margin: 20px 0;
+}
+
+.esports-tournaments {
+  padding: 10px;
+  margin: 0 auto;
+}
+.esports-tournaments img {
+  float: left;
+  width: 450px;
+  height: 300px;
+}
+.esports-tournaments article {
+  font-size: 2rem;
+  padding: 0 5px;
+}
